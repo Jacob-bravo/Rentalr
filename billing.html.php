@@ -212,7 +212,7 @@
     </div>
         </div>
 <!-- billing form -->
-<form action="">
+<form action="insert1.php" method="POST">
 
     <div class="row">
 
@@ -222,29 +222,29 @@
 
             <div class="inputBox">
                 <span>full name :</span>
-                <input type="text" placeholder="john deo">
+                <input type="text" name="name" placeholder="john deo">
             </div>
             <div class="inputBox">
                 <span>email :</span>
-                <input type="email" placeholder="example@example.com">
+                <input type="email" name="email" placeholder="example@example.com">
             </div>
             <div class="inputBox">
                 <span>address :</span>
-                <input type="text" placeholder="room - street - locality">
+                <input type="text" name="address" placeholder="room - street - locality">
             </div>
             <div class="inputBox">
                 <span>city :</span>
-                <input type="text" placeholder="Nairobi">
+                <input type="text" name="city" placeholder="Nairobi">
             </div>
 
             <div class="flex">
                 <div class="inputBox">
                     <span>state :</span>
-                    <input type="text" placeholder="Kenya">
+                    <input type="text" name="state" placeholder="Kenya">
                 </div>
                 <div class="inputBox">
                     <span>zip code :</span>
-                    <input type="text" placeholder="123 456">
+                    <input type="text" name="zipcode" placeholder="123 456">
                 </div>
             </div>
 
@@ -260,25 +260,25 @@
             </div>
             <div class="inputBox">
                 <span>name on card :</span>
-                <input type="text" placeholder="mr. john deo">
+                <input type="text" name="cardfullname" placeholder="mr. john deo">
             </div>
             <div class="inputBox">
                 <span>credit card number :</span>
-                <input type="number" placeholder="1111-2222-3333-4444">
+                <input type="number" name="creditcardnumber" placeholder="1111-2222-3333-4444">
             </div>
             <div class="inputBox">
                 <span>exp month :</span>
-                <input type="text" placeholder="january">
+                <input type="text" name="expirymonth" placeholder="january">
             </div>
 
             <div class="flex">
                 <div class="inputBox">
                     <span>exp year :</span>
-                    <input type="number" placeholder="2022">
+                    <input type="number" name="expiryyear" placeholder="2022">
                 </div>
                 <div class="inputBox">
                     <span>CVV :</span>
-                    <input type="text" placeholder="1234">
+                    <input type="text" name="cvv" placeholder="1234">
                 </div>
             </div>
 
@@ -286,7 +286,7 @@
 
     </div>
 
-    <input type="submit" value="submit" class="submit-btn">
+    <input type="submit" name="submit" class="submit-btn">
 
 </form>
 

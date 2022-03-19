@@ -5,48 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration login form</title>
-    <script>
-        $(document).ready(function(){
-$(".sign_in").hide();
-$(".li_up").addClass("active");
 
-$(".li_in").click(function(){
-    $(this).addClass("active");
-$(".li_up").removeClass("active");
-
-})
-            $(".li_in").click(function () {
-                $(this).addClass("active");
-                $(".li_up").removeClass("active");
-
-            }) 
-        });
-    </script>
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
+    <div class="main">
+        
     <div class="wrapper">
         <div class="left">
-            <h3>Rentlar</h3>
-            <img src="img/ap1.jpg" alt="apartment image" >
-        </div>
+            <h1>Rentlar</h1>
+                </div>
         <div class="right">
             <div class="tabs">
                 <ul>
-                    <li class="li_up"> Sign Up </li>
-                    <li class="li_in"> Sign In </li>
+                    <li><a> SIGN UP </a></li>
+                    <li><a>SIGN IN</a></li>
                 </ul>
             </div>
-
+            <form action="insert.php" method="POST">
             <div class="sign_up">
                 <div class="input_field">
-                    <input type="text" placeholder ="Username" class ="input">
+                    <input type="text" name="username" placeholder ="Username" class ="input">
                 </div>
-                <div class="input_field"><input type="text" placeholder="Email" class="input"></div>
+                <div class="input_field"><input type="text"  name="email" placeholder="Email" class="input"></div>
         <div class="input_field">
-            <input type="password" placeholder="Password" class="input">
+            <input type="password" name="password" placeholder="Password" class="input">
         </div>
-                <div class="input_field"><select class="form-control" data-val="true" data-val-required="The Role field is required." id="user_Role"
-                    name="user.Role" required="True">
+                <div class="input_field"><select class="form-control"  data-val="true" data-val-required="The Role field is required." id="user_Role"
+                    name="userrole" required="True">
                     <option value="">Select Role...</option>
                     <option value="1">Landlord</option>
                     <option selected="selected" value="5">Property Manager</option>
@@ -57,20 +43,22 @@ $(".li_up").removeClass("active");
                 <span class="form-text">If you're both a Property Manager and a Landlord, select Property Manager.</span>
                 </div>
 
-                <div class="btn"><a href="#">Register</a></div>
+                <input type="submit" name="submit">
                 </div> 
 
 <div class="sign_in">
     <div class="input_field">
-        <input type="text" placeholder="E-mail" class="input">
+        <h3>Login here</h3>
+        <input type="text"  name="signinemail" placeholder="E-mail" class="input">
     </div>
     <div class="input_field">
-        <input type="password" placeholder="Password" class="input">
+        <input type="password" name="siginpassword" placeholder="Password" class="input">
     </div>
-    <div class="btn"><a href="#">Login</a></div>
+    <input type="submit" name="submit">
+    </form>
 </div>
 
-</div>
+
             </div>
         </div>
     </div>
