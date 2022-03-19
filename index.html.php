@@ -53,7 +53,7 @@
 
             <ul class="nav2">
             <!-- <i class="fa-solid fa-xmark"></i> -->
-                <li><a href="index.html" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="index.html.php" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
                 <li><a href="#landlord"> Landlords</a></li>
                 <li><a href="#manager"> Property Managers</a></li>
                 <li><a href="#tenant"> Tenants</a></li>

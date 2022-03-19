@@ -45,14 +45,16 @@
 
                 <input type="submit" name="submit">
                 </div> 
+                </form>
 
 <div class="sign_in">
+    <form action="insert2.php" method="POST">
     <div class="input_field">
         <h3>Login here</h3>
-        <input type="text"  name="signinemail" placeholder="E-mail" class="input">
+        <input type="text"  name="signinemail" placeholder="E-mail">
     </div>
     <div class="input_field">
-        <input type="password" name="siginpassword" placeholder="Password" class="input">
+        <input type="password" name="pass" placeholder="Password">
     </div>
     <input type="submit" name="submit">
     </form>
