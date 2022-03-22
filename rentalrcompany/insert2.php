@@ -18,7 +18,7 @@ $conn=mysqli_connect($servername,$username,$password,"$dbname");
              $sql = "INSERT INTO login (email,password)
              VALUES ('$signinemail','$pass')";
              if (mysqli_query($conn, $sql)) {
-               header("Location:index.php");
+                header("Location:index.php");
              } else {
                 echo "Error: " . $sql . ":-" . mysqli_error($conn);
              }

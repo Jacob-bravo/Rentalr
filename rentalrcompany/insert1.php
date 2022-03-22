@@ -27,7 +27,7 @@ $conn=mysqli_connect($servername,$username,$password,"$dbname");
              $sql = "INSERT INTO billing (name,email,address,city,state,zipcode,cardfullname,creditcardnumber,expirymonth,expiryyear,cvv)
              VALUES ('$name','$email','$address','$city','$state','$zipcode','$cardfullname','$creditcardnumber','$expirymonth','$expiryyear','$cvv')";
              if (mysqli_query($conn, $sql)) {
-               header("Location:billing.php");
+                header("Location:index.php");
              } else {
                 echo "Error: " . $sql . ":-" . mysqli_error($conn);
              }

@@ -19,12 +19,11 @@ $conn=mysqli_connect($servername,$username,$password,"$dbname");
              $message = $_POST['message'];
              $sql = "INSERT INTO contact (name,email,subject,message)
              VALUES ('$name','$email','$subject','$message')";
-             
              if (mysqli_query($conn, $sql)) {
                header("Location:index.php");
-            } else {
-               echo "Error: " . $sql . ":-" . mysqli_error($conn);
-            }
+             } else {
+                echo "Error: " . $sql . ":-" . mysqli_error($conn);
+             }
              mysqli_close($conn);
         }
 
