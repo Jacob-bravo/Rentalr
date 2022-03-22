@@ -41,18 +41,18 @@
                  
                     <ul class="nav1">
                         <!-- <i class="fa-solid fa-xmark"></i> -->
-                        <li><a href="billing.html"><i class="fa fa-wallet"></i> Billing</a></li>
+                        <li><a href="billing.php"><i class="fa fa-wallet"></i> Billing</a></li>
                         <li><a href="#contact"><i class="fa fa-comments"> </i> Contact Us</a></li>
                         <li><a href="sacco.html"><i class="fa-solid fa-money-check"></i> Sacco</a></li>
-                        <li><a href="login.html"><i class="fa fa-arrow-right-to-bracket"></i> Login</a></li>
-                        <li><a href="signup.html"><i class="fa fa-user-plus"></i> Sign up</a></li>
+                        <li><a href="login.php"><i class="fa fa-arrow-right-to-bracket"></i> Login</a></li>
+                        <li><a href="signup.php"><i class="fa fa-user-plus"></i> Sign up</a></li>
         
         
                     </ul>
         
                     <ul class="nav2">
                         <!-- <i class="fa-solid fa-xmark"></i> -->
-                <li><a href="index.html" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="index.php" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
 
                         <li><a href="#landlord"> Landlords</a></li>
                         <li><a href="#manager"> Property Managers</a></li>

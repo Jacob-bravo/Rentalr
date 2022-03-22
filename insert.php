@@ -20,12 +20,13 @@ $conn=mysqli_connect($servername,$username,$password,"$dbname");
              $sql = "INSERT INTO registration (username,email,password,userrole)
              VALUES ('$username','$email','$password','$userrole')";
              if (mysqli_query($conn, $sql)) {
-                echo "New record has been added successfully !";
+                header("Location:index.php");
              } else {
                 echo "Error: " . $sql . ":-" . mysqli_error($conn);
              }
              mysqli_close($conn);
         }
+      
 
 
         ?>

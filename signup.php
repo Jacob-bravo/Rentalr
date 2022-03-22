@@ -43,7 +43,7 @@
                 <span class="form-text">If you're both a Property Manager and a Landlord, select Property Manager.</span>
                 </div>
 
-                <input type="submit" name="submit">
+                <input type="submit" name="submit" value="Register">
                 </div> 
                 </form>
 
@@ -56,7 +56,7 @@
     <div class="input_field">
         <input type="password" name="pass" placeholder="Password">
     </div>
-    <input type="submit" name="submit">
+    <input type="submit" name="submit" value="Login">
     </form>
 </div>
 
