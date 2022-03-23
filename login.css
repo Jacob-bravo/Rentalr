@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+   
+}
+h2{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+   .main{
+       height: 100%;
+       width: 100%;
+       background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(hse51.jpg);
+       background-position: center;
+       background-size: cover;
+       position: absolute;
+   }
+   .row{
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+   .login section{
+       text-align: justify;
+
+   }h2{
+    color: white;
+    padding: 20px;
+}
+ 
+   .form-text{
+       color: white;
+   }
+   
